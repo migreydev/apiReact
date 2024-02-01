@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:3000/coches";
+const url = "https://api-express-flame.vercel.app/coches";
 
 
 const getCoches = () => axios.get(url);
